@@ -38,13 +38,40 @@ func getFib(term:Int) -> Int {
 	return getFib(term:term-1) + getFib(term:term-2)
 }
 
-print("heres my result \(getFib(term:1))")
-print("heres my result \(getFib(term:2))")
-print("heres my result \(getFib(term:3))")
-print("heres my result \(getFib(term:4))")
-print("heres my result \(getFib(term:5))")
-print("heres my result \(getFib(term:6))")
-print("heres my result \(getFib(term:7))")
-print("heres my result \(getFib(term:8))")
-print("heres my result \(getFib(term:9))")
-print("heres my result \(getFib(term:10))")
+var fibSum:Int = 0
+var fibCount:Int = 0
+var fibKeepGoing:Bool = true
+while fibKeepGoing {
+	var currTerm = getFib(term:fibCount)
+	if(currTerm >= 4000000){
+		fibKeepGoing = false
+	} else {
+		if currTerm%2 == 0 {
+			fibSum += currTerm
+		}
+		fibCount += 1
+	}
+}
+
+print(fibSum)
+
+
+//2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+
+//What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+
+func isDivisibleBy1Through20(Number x:Int) -> Bool {
+	if x%2 == 0 && x%3 == 0 && x%4 == 0 && x%5 == 0 && x%6 == 0 && x%7 == 0 && x%8 == 0 && x%9 == 0  && x%10 == 0{
+		return true
+	}
+	return false
+}
+
+var isDivisCount:Int = 1
+while isDivisibleBy1Through20(Number:isDivisCount) == false {
+	count += 1
+}
+print("derricks count \(isDivisCount)")
+
+
+
