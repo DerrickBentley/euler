@@ -62,10 +62,20 @@ namespace UnitTests
         #endregion
 
         [Test]
-        [TestCase(1,10,2520, true)] // test from the case itself
-        public void euler_problem_5_isDivisibleEvenly(int from, int upto, int number, Boolean expected)
+        [TestCase(1, 10, 2520, true)]
+        //[TestCase(1, 20, 232792560, true)]
+        public void euler_problem_5_isDivisibleEvenly(int from, int upto, int number, bool expected)
         {
             Assert.AreEqual(eulerSmallestMultiple.isDivisibleEvenly(from, upto, number), expected);
         }
+
+        [Test]
+        [TestCase(1, 10,2520)]
+        //[TestCase(1, 20, 232792560)]
+        public void euler_problem_5_findSmallestMultiple(int from, int upto, int expected)
+        {
+            Assert.AreEqual(eulerSmallestMultiple.findSmallestMultipleWithRange(from, upto), expected);
+        }
+
     }
 }

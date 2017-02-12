@@ -62,6 +62,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\csharp and web\ProblemsClassLibrary\ProblemsClassLibrary.csproj">
+      <Project>{B8F60833-9B13-454A-87AF-01D61A7EC2FD}</Project>
+      <Name>ProblemsClassLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
