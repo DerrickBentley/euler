@@ -2,6 +2,7 @@
 using System.Text;
 using System.Collections.Generic;
 using NUnit.Framework;
+using ProblemsClassLibrary;
 
 namespace UnitTests
 {
@@ -17,6 +18,7 @@ namespace UnitTests
             //
             // TODO: Add constructor logic here
             //
+            eulerSmallestMultiple = new eulerSmallestMultiple();
         }
 
         private TestContext testContextInstance;
@@ -60,9 +62,10 @@ namespace UnitTests
         #endregion
 
         [Test]
-        public void euler_problem_5_isDivisibleEvenly(int from, int upto, int number, int result, int expected)
+        [TestCase(1,10,2520, true)] // test from the case itself
+        public void euler_problem_5_isDivisibleEvenly(int from, int upto, int number, Boolean expected)
         {
-            Assert.AreEqual()
+            Assert.AreEqual(eulerSmallestMultiple.isDivisibleEvenly(from, upto, number), expected);
         }
     }
 }
