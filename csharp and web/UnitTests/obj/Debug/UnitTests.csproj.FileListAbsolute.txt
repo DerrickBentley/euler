@@ -2,8 +2,8 @@ C:\Users\Derrick Bentley\Desktop\webprojects\euler\csharp and web\UnitTests\obj\
 C:\Users\Derrick Bentley\Desktop\webprojects\euler\csharp and web\UnitTests\bin\Debug\UnitTests.dll
 C:\Users\Derrick Bentley\Desktop\webprojects\euler\csharp and web\UnitTests\bin\Debug\UnitTests.pdb
 C:\Users\Derrick Bentley\Desktop\webprojects\euler\csharp and web\UnitTests\bin\Debug\nunit.framework.dll
-C:\Users\Derrick Bentley\Desktop\webprojects\euler\csharp and web\UnitTests\bin\Debug\ProblemsClassLibrary.dll
-C:\Users\Derrick Bentley\Desktop\webprojects\euler\csharp and web\UnitTests\bin\Debug\ProblemsClassLibrary.pdb
 C:\Users\Derrick Bentley\Desktop\webprojects\euler\csharp and web\UnitTests\bin\Debug\nunit.framework.xml
 C:\Users\Derrick Bentley\Desktop\webprojects\euler\csharp and web\UnitTests\obj\Debug\UnitTests.dll
 C:\Users\Derrick Bentley\Desktop\webprojects\euler\csharp and web\UnitTests\obj\Debug\UnitTests.pdb
+C:\Users\Derrick Bentley\Desktop\webprojects\euler\csharp and web\UnitTests\bin\Debug\ProblemClassLibrary.dll
+C:\Users\Derrick Bentley\Desktop\webprojects\euler\csharp and web\UnitTests\bin\Debug\ProblemClassLibrary.pdb

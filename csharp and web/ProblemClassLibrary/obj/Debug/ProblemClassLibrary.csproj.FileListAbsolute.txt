@@ -1,0 +1,4 @@
+C:\Users\Derrick Bentley\Desktop\webprojects\euler\csharp and web\ProblemClassLibrary\bin\Debug\ProblemClassLibrary.dll
+C:\Users\Derrick Bentley\Desktop\webprojects\euler\csharp and web\ProblemClassLibrary\bin\Debug\ProblemClassLibrary.pdb
+C:\Users\Derrick Bentley\Desktop\webprojects\euler\csharp and web\ProblemClassLibrary\obj\Debug\ProblemClassLibrary.dll
+C:\Users\Derrick Bentley\Desktop\webprojects\euler\csharp and web\ProblemClassLibrary\obj\Debug\ProblemClassLibrary.pdb
