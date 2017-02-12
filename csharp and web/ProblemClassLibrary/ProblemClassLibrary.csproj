@@ -43,6 +43,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="eulerLargestPalindrome.cs" />
     <Compile Include="eulerSmallestMultiple.cs" />
+    <Compile Include="eulerSumSquareDifference.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

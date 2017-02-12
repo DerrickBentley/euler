@@ -59,6 +59,7 @@
     <Compile Include="UnitTestsEulerLargestPalindrome.cs" />
     <Compile Include="UnitTestsEulerSmallestMultiple.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitTestsEulerSumSquareDifference.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

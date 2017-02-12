@@ -34,17 +34,27 @@ namespace ProblemClassLibrary
 
         public int SumOfSquares(int from, int upto)
         {
-            return 0;
+            int result = 0;
+            for(int i = from; i <= upto; i++)
+            {
+                result += squareNumber(i);
+            }
+            return result;
         }
 
-        public int SumOfRange(int from, int upto)
+        public int SumOfRangeSquared(int from, int upto)
         {
-            return 0;
+            int result = 0;
+            for(int i = from; i <= upto; i++)
+            {
+                result += i;
+            }
+            return squareNumber(result);
         }
 
         public int SumSquareDifference(int from, int upto)
         {
-            return 0;
+            return Math.Abs(SumOfSquares(from, upto) - SumOfRangeSquared(from, upto));
         }
     }
 }

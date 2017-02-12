@@ -58,15 +58,15 @@ namespace UnitTests
         #endregion
 
         [Test]
-        [TestCase(1, 10, 55)]
-        [TestCase(1, 5, 15)]
-        public void Test_SumOfRange(int from, int upto, int expected)
+        [TestCase(1, 10, 3025)]
+        [TestCase(1, 5, 225)]
+        public void Test_SumOfRangeSquared(int from, int upto, int expected)
         {
-            Assert.AreEqual(essd.SumOfRange(from, upto), expected);
+            Assert.AreEqual(essd.SumOfRangeSquared(from, upto), expected);
         }
 
         [Test]
-        [TestCase(1, 10, 3025)]
+        [TestCase(1, 10, 385)]
         [TestCase(1, 5, 55)]
         public void Test_SumOfSquares(int from, int upto, int expected)
         {
@@ -75,7 +75,7 @@ namespace UnitTests
 
         [Test]
         [TestCase(1, 10, 2640)]
-        [TestCase(1, 100, 0)]
+        [TestCase(1, 100, 25164150)]
         public void Test_SumSquareDifference(int from, int upto, int expected)
         {
             Assert.AreEqual(essd.SumSquareDifference(from, upto), expected);
