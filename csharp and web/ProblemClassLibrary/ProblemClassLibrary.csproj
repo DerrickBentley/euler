@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="eulerLargestPalindrome.cs" />
+    <Compile Include="eulerLargestProductInASeries.cs" />
     <Compile Include="eulerSmallestMultiple.cs" />
     <Compile Include="eulerSumSquareDifference.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
