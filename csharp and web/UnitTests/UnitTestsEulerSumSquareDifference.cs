@@ -7,21 +7,19 @@ using ProblemClassLibrary;
 namespace UnitTests
 {
     /// <summary>
-    /// Tests Euler Problem #5
+    /// Tests Euler Problem #6
     /// </summary>
-    public class UnitTestsEulerSmallestMultiple
+    public class UnitTestsEulerSumSquareDifference
     {
+        private eulerSumSquareDifference essd;
 
-        private eulerSmallestMultiple eulerSmallestMultiple;
-
-        public UnitTestsEulerSmallestMultiple()
+        public UnitTestsEulerSumSquareDifference()
         {
-            eulerSmallestMultiple = new eulerSmallestMultiple();
+            essd = new eulerSumSquareDifference();
         }
 
-        #region still need to find what this is
+        #region Additional test attributes
         private TestContext testContextInstance;
-
         /// <summary>
         ///Gets or sets the test context which provides
         ///information about and functionality for the current test run.
@@ -37,9 +35,7 @@ namespace UnitTests
                 testContextInstance = value;
             }
         }
-        #endregion
 
-        #region Additional test attributes
         //
         // You can use the following additional attributes as you write your tests:
         //
@@ -62,20 +58,27 @@ namespace UnitTests
         #endregion
 
         [Test]
-        [TestCase(1, 10, 2520, true)]
-        //[TestCase(1, 20, 232792560, true)]
-        public void Test_isDivisibleEvenly(int from, int upto, int number, bool expected)
+        [TestCase(1, 10, 55)]
+        [TestCase(1, 5, 15)]
+        public void Test_SumOfRange(int from, int upto, int expected)
         {
-            Assert.AreEqual(eulerSmallestMultiple.isDivisibleEvenly(from, upto, number), expected);
+            Assert.AreEqual(essd.SumOfRange(from, upto), expected);
         }
 
         [Test]
-        [TestCase(1, 10,2520)]
-        //[TestCase(1, 20, 232792560)]
-        public void Test_findSmallestMultiple(int from, int upto, int expected)
+        [TestCase(1, 10, 3025)]
+        [TestCase(1, 5, 55)]
+        public void Test_SumOfSquares(int from, int upto, int expected)
         {
-            Assert.AreEqual(eulerSmallestMultiple.findSmallestMultipleWithRange(from, upto), expected);
+            Assert.AreEqual(essd.SumOfSquares(from, upto), expected);
         }
 
+        [Test]
+        [TestCase(1, 10, 2640)]
+        [TestCase(1, 100, 0)]
+        public void Test_SumSquareDifference(int from, int upto, int expected)
+        {
+            Assert.AreEqual(essd.SumSquareDifference(from, upto), expected);
+        }
     }
 }

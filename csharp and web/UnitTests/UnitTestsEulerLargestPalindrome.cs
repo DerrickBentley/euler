@@ -7,7 +7,7 @@ using ProblemClassLibrary;
 namespace UnitTests
 {
     /// <summary>
-    /// Summary description for UnitTestsEulerProblem4
+    /// Tests the Euler problem #4
     /// </summary>
     public class UnitTestsEulerLargestPalindrome
     {
