@@ -60,16 +60,19 @@ print(fibSum)
 
 //What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
-func isDivisibleBy1Through20(Number x:Int) -> Bool {
-	if x%2 == 0 && x%3 == 0 && x%4 == 0 && x%5 == 0 && x%6 == 0 && x%7 == 0 && x%8 == 0 && x%9 == 0  && x%10 == 0{
-		return true
+func isDivisible(From:Int, UpTo:Int, Number x:Int) -> Bool {
+	var result:Bool = true
+	for i in From...UpTo {
+		if x%i != 0 {
+			result = false
+		}
 	}
-	return false
+	return result
 }
 
 var isDivisCount:Int = 1
-while isDivisibleBy1Through20(Number:isDivisCount) == false {
-	count += 1
+while isDivisible(From:1, UpTo:20, Number:isDivisCount) == false {
+	isDivisCount += 1
 }
 print("derricks count \(isDivisCount)")
 
