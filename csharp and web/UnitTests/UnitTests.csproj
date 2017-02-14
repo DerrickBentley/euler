@@ -56,6 +56,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="UnitTestsLeetcodeLongestCommonPrefix.cs" />
     <Compile Include="UnitTestsLeetcodeLongestSubstringWithoutRepeats.cs" />
     <Compile Include="UnitTestsLeetcodeTwoSum.cs" />
     <Compile Include="UnitTestsEulerLargestProductInASeries.cs" />

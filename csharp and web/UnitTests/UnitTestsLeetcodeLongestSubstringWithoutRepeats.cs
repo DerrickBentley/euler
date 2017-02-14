@@ -23,7 +23,7 @@ namespace UnitTests
         [TestCase("pwwkew", "wke")]
         [TestCase("abcdefghijklmnopqrstuvwxyz", "abcdefghijklmnopqrstuvwxyz")]
         [TestCase("Test", "Test")]
-
+        [TestCase("", "")]
         public void Test_Leetcode_Longest_SubString_Without_Repeats(String a, String expected)
         {
             Assert.AreEqual(lcLSWR.findSubstring(a), expected);
