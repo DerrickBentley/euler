@@ -33,7 +33,7 @@ namespace UnitTests
         [TestCase(new String[] { "DoctorSmith", "DoctorBrown", "DoctorPryslek" }, "Doctor")]
         [TestCase(new String[] { "DoctorSmith", "DoctorBrown", "DocPryslek" }, "Doc")]
         [TestCase(new String[] { "DoctorSmith", "DoctorBrown", "" }, "")]
-        [TestCase(new String[] { "DerrickBentley", "DerrickJeter", "Deryll" }, "Der")]
+        [TestCase(new String[] { "DerrickBentley", "", "Deryll" }, "")]
         [TestCase(new String[] { "DoctorSmithensin", "DoctorBrown", "DoctOct" }, "Doct")]
         public void Test_LongestPrefix(String[] words, String expected)
         {
