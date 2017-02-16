@@ -49,6 +49,7 @@
     <Compile Include="leetcodeLongestCommonPrefix.cs" />
     <Compile Include="leetcodeLongestSubstringWIthoutRepeats.cs" />
     <Compile Include="leetcodeTwoSum.cs" />
+    <Compile Include="leetcodeValidParentheses.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

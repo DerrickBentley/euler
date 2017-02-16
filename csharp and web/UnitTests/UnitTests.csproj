@@ -65,6 +65,7 @@
     <Compile Include="UnitTestsEulerSmallestMultiple.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitTestsEulerSumSquareDifference.cs" />
+    <Compile Include="UnitTestsLeetcodeValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
