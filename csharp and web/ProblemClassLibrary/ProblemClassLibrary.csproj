@@ -46,6 +46,7 @@
     <Compile Include="eulerSmallestMultiple.cs" />
     <Compile Include="eulerSumSquareDifference.cs" />
     <Compile Include="leetcodeContainerWIthMostWater.cs" />
+    <Compile Include="leetcodeCountAndSay.cs" />
     <Compile Include="leetcodeLongestCommonPrefix.cs" />
     <Compile Include="leetcodeLongestSubstringWIthoutRepeats.cs" />
     <Compile Include="leetcodeTwoSum.cs" />
