@@ -57,6 +57,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="UnitTestsLeetcodeContainerWithMostWater.cs" />
+    <Compile Include="UnitTestsLeetcodeCountAndSay.cs" />
     <Compile Include="UnitTestsLeetcodeLongestCommonPrefix.cs" />
     <Compile Include="UnitTestsLeetcodeLongestSubstringWithoutRepeats.cs" />
     <Compile Include="UnitTestsLeetcodeTwoSum.cs" />

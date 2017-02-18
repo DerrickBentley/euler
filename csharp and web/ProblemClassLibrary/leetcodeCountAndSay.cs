@@ -45,10 +45,9 @@ namespace ProblemClassLibrary
             int i = 0;
             while (i < x.Length)
             {
-                int repeats = countRepeatPrefix(x);
+                int repeats = countRepeatAtIndex(x, i);
                 result.Append(repeats.ToString() + x[i].ToString());
-                i += countRepeatPrefix(x);
-                x = x.Substring(i, x.Length);
+                i += repeats;
             }
             return result.ToString();
 
@@ -56,17 +55,18 @@ namespace ProblemClassLibrary
 
 
         /// <summary>
-        /// for a given string return how many times the first letter repeats uninterrupted
+        /// for a given string and an index, return how many times the character repeats uninterrupted
         /// </summary>
-        /// <example>countRepeatPrefix("ddderrick") == 3</example>
+        /// <example>countRepeatPrefix("ddderrick", 0) == 3</example>
         /// <param name="x"></param>
         /// <returns>an integer representing how many times the first letter repeats</returns>
-        public int countRepeatPrefix(string x)
+        public int countRepeatAtIndex(string x, int index)
         {
             int count = 0;
-            for (int i = 0; i < x.Length; i++)
+            char original = x[index];
+            for (int i = index; i < x.Length; i++)
             {
-                if (x[i] == x[0])
+                if (x[i] == original)
                 {
                     count++;
                 }
