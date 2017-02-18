@@ -28,11 +28,6 @@ namespace UnitTests
         [TestCase(5, "111221")]
         [TestCase(6, "312211")]
         [TestCase(7, "13112221")]
-        [TestCase(8, "1113213211")]
-        [TestCase(9, "31131211131221")]
-        [TestCase(10, "13211311123113112211")]
-        [TestCase(11, "11131221133112132113212221")]
-
         public void Test_Count_Say_Term(int term, String expected)
         {
             Assert.AreEqual(lcCAS.CountAndSay(term), expected);
