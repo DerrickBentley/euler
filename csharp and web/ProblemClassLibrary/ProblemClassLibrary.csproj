@@ -45,10 +45,12 @@
     <Compile Include="eulerLargestProductInASeries.cs" />
     <Compile Include="eulerSmallestMultiple.cs" />
     <Compile Include="eulerSumSquareDifference.cs" />
+    <Compile Include="getEthosCoolNumbers.cs" />
     <Compile Include="leetcodeContainerWIthMostWater.cs" />
     <Compile Include="leetcodeCountAndSay.cs" />
     <Compile Include="leetcodeLongestCommonPrefix.cs" />
     <Compile Include="leetcodeLongestSubstringWIthoutRepeats.cs" />
+    <Compile Include="leetcodeRotateImage.cs" />
     <Compile Include="leetcodeTwoSum.cs" />
     <Compile Include="leetcodeValidParentheses.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
